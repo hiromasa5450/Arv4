@@ -1,0 +1,32 @@
+
+@media (max-width:3000px) {
+
+  .header-about img{
+    width:120px ;
+    position: relative;
+    top: 3px;
+  }
+
+}
+
+@media (max-width:639px) {
+
+  li.li-heading {
+    font-size: 20px;
+  }
+
+  .main-wrapper li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .main-wrapper ul {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  footer {
+    padding-top: 5%;
+  }
+
+}

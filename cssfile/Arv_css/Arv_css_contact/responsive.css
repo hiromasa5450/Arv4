@@ -1,0 +1,187 @@
+@media(max-width:1312px) {
+
+
+
+}
+
+@media(max-width:1279px) {
+
+    .header-left img {
+        width: 48px;
+        position: relative;
+        top: -45px;
+        left: -20px;
+    }
+  
+    header {
+        height: 60px;
+    }
+
+    img.header-left-image {
+        width: 80px;
+        position: relative;
+        top: -37px;
+        left: -15px;
+
+    }
+
+    .header-bottom {
+        padding-top: 140px;
+        padding-bottom: ;
+    }
+
+    .brand-heading img {
+        padding-top: 60px;
+    }
+
+   
+
+   
+
+      .header-right li {
+        display: none;
+    }
+
+    .header-center li {
+        display: none;
+    }
+
+    span.menu-button {
+        display: block;
+    }
+
+}
+
+@media(max-width:1223px) {
+    .contact-input1
+    {
+        padding: 10px;
+    }
+
+
+
+}
+
+@media (max-width:959px) {
+
+    .li-radio1 {
+        display: block;
+        margin-bottom: 20px;
+        position: relative;
+        left: 35px;
+    }
+
+
+   footer {
+       display: flex;
+       flex-direction: column;
+   }
+
+   p.section-ttl {
+    
+   }
+
+   p.adress {
+       margin-top: 20px;
+   }
+
+   .footer-left {
+       height: 75px; 
+       width: 100%;
+       padding-top: 25px;
+   }
+
+   .footer-center {
+       border-left: none;
+       border-right: none;
+       border-top:1px solid black ;
+       padding-top: 30px;
+       padding-left: 0;
+       padding-right: 0;
+       margin-left: 0;
+       margin-right: 0;
+       height: 135px;
+       width: 100%;
+   }
+
+   .footer-center:before {
+       width: 0;
+   }
+
+   .footer-right {
+       padding-top: 30px;
+       height: 110px;
+
+       width: 100%;
+   }
+
+ 
+}
+
+@media(max-width:735px) {
+
+    .contact {
+        width: 100%;
+
+    }
+    
+
+    input.contact-input1 {
+        width: 100%;
+    }
+
+    .textarea {
+        width: 100%;
+    }
+
+    .textarea2 {
+        width: 100%;
+    }
+}
+
+@media(max-width:639px)  {
+
+    .header-bottom {
+        padding-top: 100px;
+        padding-bottom: 20px;
+        
+    }
+
+
+    .contact p {
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .contact-input1 {
+        padding:10px;
+    }
+
+    .textarea {
+        padding: 10px;
+    }
+
+    .agree {
+        display: block;
+    }
+
+    .my-checkbox {
+        display: block;
+        width: 230px;
+    }
+
+    .submit {
+        display: block;
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 100px;
+
+    }
+
+    footer {
+        padding-bottom: 13px;
+    }
+
+    
+
+}

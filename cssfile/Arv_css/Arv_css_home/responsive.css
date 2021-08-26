@@ -1,0 +1,220 @@
+@media (max-width: 1279px) {
+
+  .header-left img {
+      width: 48px;
+      position: relative;
+      top: -40px;
+      left: -20px;
+  }
+
+  header {
+      height: 60px;
+  }
+
+  #demo-1 {
+    width: 97%;
+    position: relative;
+    top: 20px;
+  }
+
+  .news {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .header-right li {
+    display: none;
+  }
+
+  .header-center li {
+    display: none;
+  }
+
+  span.menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 959px) {
+
+
+  header {
+
+  }
+  .campaign h1 {
+    margin-top: 90px;
+    width: 100%;
+  }
+
+  h1.campaign-margin {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .news-journal {
+    width: 100%;
+  }
+
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+   
+  }
+
+  /* .news-1 img {
+        max-width: 580px ;
+        width: 100%;
+    } */
+
+  .news-1 {
+    padding-bottom: 50px;
+    width: 41%;
+  }
+
+  .news-2 {
+    margin-right: 0;
+  }
+
+  .news-image {
+    /* width: 100%; */
+  } 
+
+ 
+
+  .news-3 {
+    margin-right: 0px;
+  }
+
+  .news-4 {
+    margin-left: 58px;
+  }
+
+
+
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  p.adress {
+    margin-top: 20px;
+  }
+
+  .footer-left {
+    height: 75px;
+    width: 100%;
+  }
+
+  .footer-center {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 135px;
+    width: 100%;
+  }
+
+  .footer-center:before {
+    width: 0;
+  }
+
+  .footer-right {
+    padding-top: 30px;
+    width: 100%;
+    /* padding-bottom: 0px; */
+    height: 80px;
+  }
+}
+
+
+@media (max-width: 935px) {
+h1.pk22 {
+  padding-bottom: 17px;
+}
+}
+
+/* 
+@media (max-width: 937px) {
+
+  .news-2 {
+    position: relative;
+    top: -10px;
+  }
+
+}
+
+@media (max-width: 934px) {
+
+  .news-2 {
+    position: relative;
+    top: -20px;
+  }
+
+}
+
+@media (max-width: 932px) {
+
+  .news-2 {
+    position: relative;
+    top: -10px;
+  }
+
+} */
+
+@media (max-width: 639px) {
+.campaign h1 {
+  width: 100%;
+}
+
+.campaign-margin {
+  width: 100%;
+}
+
+  .news {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   left: -5px;
+   
+  }
+
+
+
+  .news-wrapper {
+    width: 100%;
+  }
+
+  .news-flex {
+   
+  }
+
+  .news-1 {
+    width: 100%;
+  }
+
+  .news-2 {
+    margin: 0;
+  }
+
+  .news-3 {
+    margin-right: 0;
+  }
+
+  img.news-image {
+    max-width: none;
+    width: 100%;
+
+}
+
+
