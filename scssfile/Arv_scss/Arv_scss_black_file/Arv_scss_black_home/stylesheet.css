@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  color: #b6b6b6;
+  font-family: "ITC Galliard", Garamond, 'Yu Mincho', 'YuMincho', 'Meiryo', serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-home img {
+  width: 60px;
+}
+
+.header-about img {
+  width: 90px;
+}
+
+.header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px 13px;
+}
+
+.header-right img {
+  width: 40px;
+  margin: 12px 13px;
+}
+
+.main-wrapper li {
+  font-size: 36px;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+}
+
+.main-wrapper li:active {
+  color: white;
+}
+
+.li-flex a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.li-line {
+  color: #3f3f3f;
+}
+
+.main-wrapper ul {
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  padding-top: 35px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 6.5%;
+  padding-right: 7.5%;
+  padding-top: 30px;
+}
+
+footer a:hover {
+  color: #8c6e53;
+}
+
+.fa-facebook-square {
+  padding: 0 30px;
+}
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,342 @@
+@charset "UTF-8";
+body {
+  font-family: "ITC Galliard", Garamond, "Yu Mincho", "YuMincho", "Meiryo", serif;
+}
+
+.background-color {
+  background-color: #ccc8c4;
+}
+
+.header-left img {
+  width: 59px;
+  position: relative;
+  top: -28px;
+}
+
+img.header-left-image {
+  width: 90px;
+  position: relative;
+  top: -24px;
+  left: 4px;
+}
+
+.header-center {
+  position: relative;
+  left: 22px;
+}
+
+.header-center li {
+  display: inline-block;
+  font-size: 13px;
+  padding: 0 12px;
+  color: #252525;
+}
+
+.header-center a {
+  padding-bottom: 7px;
+}
+
+.header-center a:hover {
+  border-bottom: 0.5px solid #555;
+}
+
+.journal-a {
+  border-bottom: 0.5px solid #555;
+}
+
+.header-right li {
+  display: inline-block;
+  color: #5c5c5c;
+  padding: 0 15px;
+}
+
+.header-right :hover {
+  color: #8c6e53;
+}
+
+span.menu-button {
+  display: none;
+  font-size: 20px;
+  -webkit-transform: scale(1.5, 1);
+          transform: scale(1.5, 1);
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+
+span.menu-button::before {
+  border-bottom: 1px solid black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 38px;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+}
+
+.fa-search {
+  padding-left: 9px;
+}
+
+.items-heading {
+  padding-bottom: 70px;
+}
+
+.items-heading img {
+  width: 240px;
+}
+
+.items-headings {
+  padding-top: 185px;
+  text-align: center;
+}
+
+.items-heading-bottom {
+  text-align: center;
+}
+
+.items-heading-bottom span {
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+.items-heading-bottom2 {
+  display: none;
+}
+
+.bottom-span1 {
+  width: 20px;
+  background-color: #ccc8c4;
+  position: relative;
+  left: -40px;
+  letter-spacing: 1px;
+}
+
+.bottom-span2 {
+  background-color: #ccc8c4;
+  position: relative;
+  left: -20px;
+}
+
+.bottom-span4 {
+  background-color: #ccc8c4;
+}
+
+.bottom-span3 {
+  position: relative;
+  top: -6px;
+  left: -10px;
+  background-color: #ccc8c4;
+}
+
+.bottom-span5 {
+  padding-left: 15px;
+  background-color: #ccc8c4;
+}
+
+img.card-image {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  height: 188px;
+  width: 90%;
+  padding-top: 20px;
+}
+
+.footer-left img,
+.footer-center img,
+.footer-right img {
+  width: 38.5px;
+}
+
+.footer-left,
+.footer-right {
+  border-top: 1px solid black;
+}
+
+p.section-ttl {
+  font-size: 11px;
+  font-family: "Yu Gothic";
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+p.adress {
+  font-size: 11px;
+  margin-top: 80px;
+}
+
+.small-contents a {
+  font-size: 11px;
+  border-bottom: 1px solid black;
+  margin-right: 20px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.small-contents span {
+  font-size: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 0;
+  margin: 0px 40px;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+.footer-center {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 25px 0 25px;
+  margin: 0 25px 0 25px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer-center:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 90%;
+  /*線の長さ*/
+  height: 2px;
+  /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  /*位置調整*/
+  background-color: #929292;
+  /*線の色*/
+  border-radius: 2px;
+  /*線の丸み*/
+}
+
+.generation-text2 {
+  display: none;
+}
+
+.items-wrapper {
+  position: relative;
+  top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.item-card1 img {
+  border-radius: 10px;
+}
+
+.item-card {
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 90%;
+  margin-right: 15px;
+  margin-top: 0px;
+  width: 30%;
+  margin-top: 40px;
+}
+
+.item-card:hover {
+  opacity: 0.6;
+}
+
+.item-card img {
+  width: 100%;
+  padding-top: 0px;
+  height: 77%;
+  border-radius: 10px;
+}
+
+.item-card .items {
+  width: 30%;
+}
+
+.item-card h1 {
+  padding-top: 35px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  width: 100%;
+  line-height: 24px;
+}
+
+.item-card span {
+  font-size: 11px;
+  color: #838383;
+}
+
+.items-wrapper::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 0;
+}
+
+.card-images .span-li {
+  position: relative;
+  left: -14px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.card-images .by-arv {
+  color: black;
+  font-family: sans-serif;
+}
+
+.card-images .by-arv-right {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  padding-left: 13px;
+}
+
+.card-images li {
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+}
+
+.card-images li:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 100%;
+  background: black;
+  position: relative;
+  left: 0px;
+  top: 6px;
+}
+/*# sourceMappingURL=stylesheet.css.map */

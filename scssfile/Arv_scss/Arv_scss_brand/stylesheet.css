@@ -1,0 +1,218 @@
+@charset "UTF-8";
+body {
+  font-family: "ITC Galliard", Garamond, "Yu Mincho", "YuMincho", "Meiryo", serif;
+}
+
+.header-left img {
+  width: 59px;
+  position: relative;
+  top: -28px;
+}
+
+img.header-left-image {
+  width: 72px;
+  position: relative;
+  top: -24px;
+  left: 5px;
+}
+
+.header-center {
+  position: relative;
+  left: 72px;
+}
+
+.header-center li {
+  display: inline-block;
+  font-size: 13px;
+  padding: 0 12px;
+  color: #252525;
+}
+
+.header-center ul {
+  position: relative;
+  left: -40px;
+}
+
+.header-center a {
+  padding-bottom: 7px;
+}
+
+.header-center a:hover {
+  border-bottom: 0.5px solid #555;
+}
+
+.brand-a {
+  border-bottom: 0.5px solid #555;
+}
+
+.header-right li {
+  display: inline-block;
+  color: #5c5c5c;
+  padding: 0 15px;
+}
+
+.header-right :hover {
+  color: #8c6e53;
+}
+
+span.menu-button {
+  display: none;
+  font-size: 20px;
+  -webkit-transform: scale(1.5, 1);
+          transform: scale(1.5, 1);
+  position: relative;
+  top: -12px;
+  left: 12px;
+}
+
+span.menu-button::before {
+  border-bottom: 1px solid black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 38px;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+}
+
+.fa-search {
+  padding-left: 9px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  height: 188px;
+  width: 90%;
+  padding-top: 20px;
+}
+
+.footer-left img,
+.footer-center img,
+.footer-right img {
+  width: 38.5px;
+}
+
+.footer-left,
+.footer-right {
+  border-top: 1px solid black;
+}
+
+p.section-ttl {
+  font-size: 11px;
+  font-family: "Yu Gothic";
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+p.adress {
+  font-size: 11px;
+  margin-top: 80px;
+}
+
+.small-contents a {
+  font-size: 11px;
+  border-bottom: 1px solid black;
+  margin-right: 20px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.small-contents span {
+  font-size: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 0;
+  margin: 170px 40px;
+  margin-bottom: 0;
+}
+
+.footer-center {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 25px 0 25px;
+  margin: 0 25px 0 25px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer-center:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  /*線の上下位置*/
+  display: inline-block;
+  width: 90%;
+  /*線の長さ*/
+  height: 2px;
+  /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  /*位置調整*/
+  background-color: #929292;
+  /*線の色*/
+  border-radius: 2px;
+  /*線の丸み*/
+}
+
+.generation-text2 {
+  display: none;
+}
+
+.brand-wrapper {
+  position: relative;
+  top: 100px;
+}
+
+.brand-1 {
+  width: 17%;
+}
+
+img.image-1 {
+  max-width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+img.image-1:hover {
+  opacity: 0.6;
+}
+
+.brand-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.brand-heading {
+  text-align: center;
+}
+
+.brand-heading img {
+  width: 170px;
+  padding: 100px 0;
+}
+/*# sourceMappingURL=stylesheet.css.map */

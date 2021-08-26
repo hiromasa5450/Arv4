@@ -1,0 +1,312 @@
+body {
+  font-family: "ITC Galliard", Garamond, "Yu Mincho", "YuMincho", "Meiryo",
+    serif;
+}
+
+.header-left img {
+  width: 59px;
+  position: relative;
+  top: -28px;
+}
+
+img.header-left-image {
+
+    width: 90px;
+    position: relative;
+    top: -24px;
+    left: 4px;
+
+}
+
+.header-center {
+  position: relative;
+  left: 22px;
+  li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 12px;
+    color: rgb(37, 37, 37);
+  }
+
+  a {
+    padding-bottom: 7px;
+    &:hover {
+      border-bottom: 0.5px solid #555;
+    }
+  }
+}
+
+.works-a {
+    border-bottom: 0.5px solid #555;
+}
+
+.header-right {
+  li {
+    display: inline-block;
+    color: rgb(92, 92, 92);
+    padding: 0 15px;
+    
+  }
+  :hover {
+    color: #8c6e53;
+  }
+}
+
+span.menu-button {
+  display: none;
+  font-size: 20px;
+  transform: scale(1.5, 1);
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+
+span.menu-button::before {
+  border-bottom: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 38px;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+}
+
+.fa-search {
+  padding-left: 9px;
+}
+
+// アイテムヘディング
+.items-heading {
+  img {
+    width: 240px;
+  }
+  padding-bottom: 70px;
+}
+
+.items-headings {
+  padding-top: 185px;
+  text-align: center;
+}
+
+// .items-list {
+//   padding-top: 120px;
+//   a {
+//     font-size: 28px;
+//     padding-right: 22px;
+//     color: rgb(124,124,124);
+//   }
+// }
+
+// .items-span1 {
+//   width: 20px;
+// }
+
+.items-heading-bottom {
+  span {
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    display: inline-block;
+    
+  }
+  text-align: center;
+}
+
+.items-heading-bottom2 {
+  display: none;
+}
+
+.bottom-span1 {
+  width: 20px;
+}
+
+.bottom-span3 {
+  position: relative;
+  top: -6px;
+  left: -10px;
+}
+
+.bottom-span5 {
+  padding-left:15px ;
+}
+
+// ページ遷移１２３
+
+.nav-links{
+  padding-bottom:0;
+  display:flex;
+  justify-content:center;
+  padding-top:160px ;
+}
+ .nav-links a,span{
+  width:57px;
+  height:35px;
+  margin:4px;
+  line-height:35px;
+  text-align:center;
+  font-size:14px;
+  font-weight:normal;
+  text-decoration:none;
+  background:#fff;
+  color:#222;
+  border-radius: 4px;
+  font-family: sans-serif;
+
+}
+.nav-links a:hover{
+  background:black;
+  color: white;
+}
+.current{
+  background:rgb(178,178,178);
+  color: white;
+}
+.dots{
+  background:none;
+}
+// ページ遷移１２３
+
+
+
+// フッター
+
+
+.footer-left,
+.footer-center,
+.footer-right {
+  height: 188px;
+  width: 90%;
+  padding-top: 20px;
+  img {
+    width: 38.5px;
+  }
+}
+
+.footer-left,
+.footer-right {
+  border-top: 1px solid black;
+}
+
+p.section-ttl {
+  font-size: 11px;
+  font-family: "Yu Gothic";
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+p.adress {
+  font-size: 11px;
+  margin-top: 80px;
+}
+
+.small-contents {
+  a {
+    font-size: 11px;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    padding-top: 10px;
+    display: inline-block;
+  }
+
+  span {
+    font-size: 10px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  margin: 0px 40px;
+  margin-top: 150px;
+  margin-bottom:0 ;
+
+}
+
+.footer-center {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 25px 0 25px;
+  margin: 0 25px 0 25px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer-center:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0px; /*線の上下位置*/
+  display: inline-block;
+  width: 90%; /*線の長さ*/
+  height: 2px; /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); /*位置調整*/
+  background-color: rgb(146, 146, 146); /*線の色*/
+  border-radius: 2px; /*線の丸み*/
+}
+
+.generation-text2 {
+  display: none;
+}
+
+// ３０個のアイテム
+
+.items-wrapper {
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 50px;
+  
+}
+
+.item-card1 img {
+  height: 77%;
+  border-radius: 10px;
+}
+
+.item-card  {
+  transition: .3s;
+  height: 300px;
+  &:hover {
+    opacity: 0.6;
+  }
+  margin-right: 15px;
+  margin-top: 0px;
+  width: 30%;
+  margin-top: 40px;
+  img {
+    width: 100%;
+    padding-top: 0px;
+    height: 77%;
+    border-radius: 10px;
+    
+    
+  }
+
+ 
+
+  h1 {
+    padding-top:35px ;
+    padding-bottom: 5px;
+    font-size: 17px;
+    width: 60%;
+    line-height: 24px;
+  }
+
+  span {
+    font-size: 11px;
+    color: rgb(131,131,131);
+  }
+}
+
+

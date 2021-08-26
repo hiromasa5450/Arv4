@@ -1,0 +1,270 @@
+body {
+  font-family: "ITC Galliard", Garamond, "Yu Mincho", "YuMincho", "Meiryo",
+    serif;
+}
+
+.header-left img {
+  width: 59px;
+  position: relative;
+  top: -28px;
+}
+
+img.header-left-image {
+
+    width: 82px;
+
+}
+
+.header-center {
+  position: relative;
+  left: 72px;
+  li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 12px;
+    color: rgb(37, 37, 37);
+  }
+
+  ul {
+    position: relative;
+    left: -45px;
+  }
+
+  a {
+    padding-bottom: 7px;
+    &:hover {
+      border-bottom: 0.5px solid #555;
+    }
+  }
+}
+
+.about-a {
+    border-bottom: 0.5px solid #555;
+}
+
+.header-right {
+  li {
+    display: inline-block;
+    color: rgb(92, 92, 92);
+    padding: 0 15px;
+  }
+  :hover {
+    color: #8c6e53;
+  }
+}
+
+span.menu-button {
+  display: none;
+  font-size: 20px;
+  transform: scale(1.5, 1);
+  position: relative;
+  top: -12px;
+  left: 12px;
+}
+
+span.menu-button::before {
+  border-bottom: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 38px;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+}
+
+.fa-search {
+  padding-left: 9px;
+}
+
+.about-intro {
+    position: relative;
+    top: 100px;
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.what-we-do  {
+    img {
+        width: 110px;
+    }
+
+    min-width: 222px;
+    width: 100%;
+
+    
+}
+
+.generation-ttl {
+    min-width: 928px
+    width: 100%;
+}
+
+.generation-ttl2 {
+  display: none;
+}
+
+
+span.span-1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    // font-family: 'Futura', 'Yu Gothic', "游ゴシック", 'YuGothic', "游ゴシック体", Hiragino Kaku Gothic ProN, 'Meiryo', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.span-2 {
+
+    display:inline-block;
+    width: 20px;
+    height: 70px;
+}
+
+.generation-text {
+    p {
+        width: 90%;
+        line-height: 35px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    margin-top: 85px;
+
+}
+
+.generation-texts {
+    width: 70%;
+}
+
+
+
+
+// 苦戦しているところ
+
+.generation-image { 
+
+    margin: 0 auto 50px;
+    width: 100%;
+    max-width: 750px;
+}
+
+
+
+.generation-image img{ 
+  max-width: 100%;
+    
+}
+
+.about-intro2 {
+  padding-top: 200px;
+}
+
+.generation-text1 {
+  li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  display: flex;
+}
+
+.generation-text-left {
+  padding-right: 60px;
+
+}
+
+li.text-right-spacing {
+  letter-spacing: 2px;
+
+}
+
+// フッター
+
+
+.footer-left,
+.footer-center,
+.footer-right {
+  height: 188px;
+  width: 90%;
+  padding-top: 20px;
+  img {
+    width: 38.5px;
+  }
+}
+
+.footer-left,
+.footer-right {
+  border-top: 1px solid black;
+}
+
+p.section-ttl {
+  font-size: 11px;
+  font-family: "Yu Gothic";
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+p.adress {
+  font-size: 11px;
+  margin-top: 80px;
+}
+
+.small-contents {
+  a {
+    font-size: 11px;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    padding-top: 10px;
+    display: inline-block;
+  }
+
+  span {
+    font-size: 10px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  margin: 170px 40px;
+  margin-bottom:0 ;
+
+}
+
+.footer-center {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 25px 0 25px;
+  margin: 0 25px 0 25px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer-center:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0px; /*線の上下位置*/
+  display: inline-block;
+  width: 90%; /*線の長さ*/
+  height: 2px; /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); /*位置調整*/
+  background-color: rgb(146, 146, 146); /*線の色*/
+  border-radius: 2px; /*線の丸み*/
+}
+
+.generation-text2 {
+  display: none;
+}
+
+
+
