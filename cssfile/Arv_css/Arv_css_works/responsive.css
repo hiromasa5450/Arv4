@@ -431,3 +431,23 @@ top: 20px;
 
 
 }
+
+@media(max-width:420px) {
+
+
+    .item-card img {
+        width: 98%;
+        height: 80%;
+    }
+
+    .item-card2,.item-card3,.item-card4 {
+        margin-top: 110px;
+    }
+
+    .item-card4 {
+        margin-bottom: 80px;
+    }
+
+
+
+}
