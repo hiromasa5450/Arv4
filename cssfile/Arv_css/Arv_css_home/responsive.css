@@ -210,6 +210,10 @@ h1.pk22 {
   .news-3 {
     margin-right: 0;
   }
+  
+    .news-4 {
+    display: none;
+  }
 
   img.news-image {
     max-width: none;
