@@ -216,5 +216,38 @@ h1.pk22 {
     width: 100%;
 
 }
+  
+  
+}
+
+@media (max-width: 520px) {
+  
+
+
+  #demo-1 {
+    display: block;
+    min-height: initial;
+    height: 400px;
+  }
+
+  img.news-image {
+  
+  }
+  .news-wrapper {
+    width: 100%;
+  }
+
+
+
+  .news {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+}
+
+
+
 
 
