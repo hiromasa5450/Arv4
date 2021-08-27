@@ -10,6 +10,11 @@
   .about-intro {
     padding-top: 0;
   }
+  
+  .about-intro2 {
+    padding-top: 150px;
+
+  }
 }
 
 @media (max-width: 1279px) {
