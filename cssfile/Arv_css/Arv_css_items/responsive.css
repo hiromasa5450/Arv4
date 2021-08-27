@@ -301,9 +301,13 @@ span.menu-button {
 padding-top:20px ;
     }
 
-   
+  
+}
 
-
-
+@media(max-width:420px) {
+    .items-list-a1 {
+        padding-bottom: 20px;
+    }
 
 }
+
